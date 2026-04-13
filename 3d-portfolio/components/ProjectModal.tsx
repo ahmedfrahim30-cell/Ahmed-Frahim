@@ -68,7 +68,6 @@ export default function ProjectModal({ project, onClose }: ProjectModalProps) {
               modelPath={project.modelPath}
               autoRotate
               enableZoom
-              showShadows
               coreScale={0.9}
             />
             {/* HUD corners */}

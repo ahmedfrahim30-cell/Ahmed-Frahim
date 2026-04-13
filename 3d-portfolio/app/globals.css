@@ -24,6 +24,10 @@ html {
   scrollbar-color: #ff204e #000000;
 }
 
+html, body, * {
+  cursor: none !important;
+}
+
 body {
   background: #000000;
   color: #d1d5db;

@@ -90,7 +90,6 @@ export default function Hero() {
             <ModelViewer
               autoRotate
               enableZoom={false}
-              showShadows
               coreScale={1.2}
             />
           </motion.div>
