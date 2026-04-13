@@ -21,7 +21,7 @@ export const projects: Project[] = [
     category: "CHARACTER",
     tools: ["Blender", "Substance Painter", "ZBrush"],
     modelImage: "/images/veo-9.png",
-    modelPath: "/models/veo_9.glb",
+    modelPath: "/models/veo_09.glb",
     accent: "#ff204e",
   },
   {
