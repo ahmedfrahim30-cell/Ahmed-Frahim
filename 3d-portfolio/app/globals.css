@@ -1,0 +1,135 @@
+@import "tailwindcss";
+
+@theme inline {
+  --color-neon-red: #ff204e;
+  --color-neon-cyan: #00eaff;
+  --color-dark-100: #080808;
+  --color-dark-200: #111111;
+  --color-dark-300: #1a1a1a;
+  --color-dark-400: #2a2a2a;
+  --font-heading: var(--font-orbitron);
+  --font-code: var(--font-geist-mono);
+  --font-body: var(--font-geist-sans);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  scrollbar-width: thin;
+  scrollbar-color: #ff204e #000000;
+}
+
+body {
+  background: #000000;
+  color: #d1d5db;
+  font-family: var(--font-body), system-ui, sans-serif;
+  overflow-x: hidden;
+}
+
+/* ── Scrollbar ────────────────────────────── */
+::-webkit-scrollbar {
+  width: 4px;
+}
+
+::-webkit-scrollbar-track {
+  background: #000;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #ff204e;
+}
+
+/* ── Selection ────────────────────────────── */
+::selection {
+  background: rgba(255, 32, 78, 0.3);
+  color: #00eaff;
+}
+
+/* ── Grid Background ─────────────────────── */
+.grid-bg {
+  background-image:
+    linear-gradient(rgba(255, 32, 78, 0.04) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 32, 78, 0.04) 1px, transparent 1px);
+  background-size: 50px 50px;
+}
+
+/* ── Glow Utilities ──────────────────────── */
+.glow-box {
+  box-shadow:
+    0 0 15px rgba(255, 32, 78, 0.15),
+    0 0 30px rgba(255, 32, 78, 0.05);
+}
+
+.glow-text-cyan {
+  text-shadow:
+    0 0 8px rgba(0, 234, 255, 0.4),
+    0 0 25px rgba(0, 234, 255, 0.1);
+}
+
+.glow-text-red {
+  text-shadow:
+    0 0 8px rgba(255, 32, 78, 0.5),
+    0 0 25px rgba(255, 32, 78, 0.15);
+}
+
+/* ── Section Divider ─────────────────────── */
+.section-divider {
+  height: 1px;
+  background: linear-gradient(90deg, transparent, rgba(255, 32, 78, 0.25), transparent);
+}
+
+/* ── Section Gap ─────────────────────────── */
+.section-gap {
+  margin-top: 6rem;
+}
+
+@media (min-width: 768px) {
+  .section-gap {
+    margin-top: 12rem;
+  }
+}
+
+/* ── Corner Bracket Decoration ───────────── */
+.bracket {
+  position: relative;
+}
+
+.bracket::before,
+.bracket::after {
+  content: "";
+  position: absolute;
+  width: 16px;
+  height: 16px;
+}
+
+.bracket::before {
+  top: -1px;
+  left: -1px;
+  border-top: 1px solid #ff204e;
+  border-left: 1px solid #ff204e;
+}
+
+.bracket::after {
+  bottom: -1px;
+  right: -1px;
+  border-bottom: 1px solid #ff204e;
+  border-right: 1px solid #ff204e;
+}
+
+/* ── Scan Lines ──────────────────────────── */
+.scanlines::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: repeating-linear-gradient(0deg,
+      transparent,
+      transparent 2px,
+      rgba(0, 0, 0, 0.03) 2px,
+      rgba(0, 0, 0, 0.03) 4px);
+  pointer-events: none;
+}
