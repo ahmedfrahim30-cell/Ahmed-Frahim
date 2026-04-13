@@ -21,7 +21,7 @@ const orbitron = Orbitron({
 });
 
 export const metadata: Metadata = {
-  title: "Ahmed | 3D Artist & Designer",
+  title: "Ahmed Frahim | Portfolio",
   description:
     "Professional 3D portfolio showcasing mech-inspired models, characters, and environments. Specializing in hard-surface modeling and futuristic design.",
   keywords: ["3D Artist", "Portfolio", "Blender", "3D Modeling", "Mech Design"],

@@ -5,19 +5,21 @@ import { motion, useInView } from "framer-motion";
 
 const skills = [
   "Hard Surface Modeling",
-  "Texturing & Materials",
-  "Lighting & Rendering",
-  "Character Design",
-  "Environment Art",
+  "Texturing",
   "Animation",
+  "Compositing",
+  "Concept Art",
+  "Character Design",
+  "Realtime Rendering",
+  "Video Editing",
 ];
 
 const tools = [
-  { name: "Blender", level: 95 },
-  { name: "Substance Painter", level: 88 },
-  { name: "ZBrush", level: 80 },
-  { name: "Unreal Engine", level: 75 },
-  { name: "Adobe Photoshop", level: 85 },
+  { name: "Blender", level: 85 },
+  { name: "Gimp", level: 70 },
+  { name: "Inkscape", level: 80 },
+  { name: "Unreal Engine", level: 50 },
+  { name: "Davinci Resolve", level: 60 },
 ];
 
 export default function About() {
@@ -54,15 +56,7 @@ export default function About() {
             className="bracket p-10 md:p-14 w-full"
           >
             <p className="text-base md:text-lg text-gray-300 leading-loose text-center font-light">
-              I&apos;m a 3D artist and designer specializing in hard-surface
-              modeling, mech design, and futuristic environments. With a focus
-              on precision and detail, I create high-quality models for games,
-              film, and visualization.
-            </p>
-            <p className="text-base md:text-lg text-gray-400 leading-loose text-center font-light mt-6">
-              Every model is engineered with clean topology, optimized geometry,
-              and production-ready textures. My work bridges the gap between
-              artistic vision and technical execution.
+              I&apos;m a 3D artist and and concept artist driven by a deep appreciation for mechanical logic and traditional craft, I bridge the gap between classic sketching and high-performance 3D modeling. I push my 3d towards highly optimized results on the engine and in terms of visuals. I’m currently available for freelance collaborations and would love to discuss how we can bring your next project to life.
             </p>
           </motion.div>
 

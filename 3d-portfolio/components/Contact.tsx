@@ -4,10 +4,10 @@ import { useRef } from "react";
 import { motion, useInView } from "framer-motion";
 
 const socialLinks = [
-  { name: "INSTAGRAM", href: "https://github.com/" },
-  { name: "LINKEDIN", href: "https://linkedin.com/" },
-  { name: "ARTSTATION", href: "https://artstation.com/" },
-  { name: "EMAIL", href: "mailto:ahmedfrahim30@gmail.com" },
+  { name: "INSTAGRAM", href: "https://www.instagram.com/voider.3d?igsh=eDk1M2dxNWNwN3J6" },
+  { name: "LINKEDIN", href: "https://www.linkedin.com/in/ahmed-frahim-9a4215240/" },
+  { name: "ARTSTATION", href: "https://www.artstation.com/ahmedfrahim4" },
+  { name: "EMAIL", href: "https://mail.google.com/mail/?view=cm&fs=1&to=ahmedfrahim30@gmail.com" },
 ];
 
 export default function Contact() {

@@ -49,7 +49,7 @@ export default function Hero() {
               transition={{ duration: 0.8, delay: 0.6 }}
               className="text-lg md:text-xl text-gray-500 font-light tracking-wide"
             >
-              3D Artist <span className="text-neon-red">/</span> Designer
+              3D Artist <span className="text-neon-red">/</span> Concept Artist
             </motion.p>
 
             {/* tagline */}
@@ -59,8 +59,7 @@ export default function Hero() {
               transition={{ duration: 0.8, delay: 0.8 }}
               className="text-sm text-gray-600 max-w-md leading-relaxed font-code"
             >
-              Crafting precision-engineered 3D models with a focus on
-              hard-surface design and futuristic aesthetics.
+              Before I am an artist, I am a fan, a fan of human creativity and skill. Beginning with my roots in traditional sketching, I joined the 3D community in 2025 and have been driven by the craft ever since.
             </motion.p>
 
             {/* cta */}
